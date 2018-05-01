@@ -2,7 +2,7 @@
 	background-color: $mainBlue;
 	color:white;
 	padding: 0.5rem 0;
-	text-align:center
+	text-align:center;
 
 	&__text{
 		display:block;

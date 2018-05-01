@@ -1047,11 +1047,10 @@ Instead edit gulp/templates/sprite */
 	background-color: #2f5572;
 	color:white;
 	padding: 0.5rem 0;
+	text-align:center;
 }
 
-text-align:center
-
-	.site-footer__text{
+.site-footer__text{
   display:block;
   margin-bottom: 1rem;
   font-weight:200;
@@ -1059,9 +1058,7 @@ text-align:center
 
 @media (min-width: 800px) {
 
-  text-align:center
-
-	.site-footer__text {
+  .site-footer__text {
     display: inline;
     margin-bottom: 0;
     margin-right: 1.4rem;
