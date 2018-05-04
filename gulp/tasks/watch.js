@@ -19,9 +19,9 @@ gulp.task('watch', function() {
     gulp.start('cssInject');
   });
 
-  watch('./app/assets/scripts/**/*.js', function(){
-      gulp.start('scriptsRefresh');
-  });
+  watch('./app/assets/scripts/**/*.js', function() {
+    gulp.start('scriptsRefresh');
+  })
 
 });
 
